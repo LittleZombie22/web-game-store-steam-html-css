@@ -1,0 +1,81 @@
+* {
+	margin:0;  /*定义所有标记外边框距离为0*/
+	padding:0;} /*定义所有标记内部边距为0*/
+body {
+	font-size:13px; /*设置字体大小*/
+	color:#000000;	/*设置字体颜色*/
+	background:#1e9bdb;} /*设置背景颜色*/
+a {	
+	color:#1e9bdb;/*设置字符的字体颜色*/	
+	text-decoration:none;} /*添加到文本的修饰*/
+a:hover {	
+	color:#F00;/*设置字符的字体颜色*/
+	text-decoration:none;} /*添加到文本的修饰*/
+.register_bk {	
+	width:820px;/*设置边框的宽度*/
+	height:420px;/*设置边框的高度*/
+	background:url(../img/page_bg.jpg); /*设置背景图片*/
+	margin:50px auto;/*设置外边框距离*/
+	border:1px solid #FFF;/*设置边框*/
+	border-radius:8px;}/*设置边框圆角半径*/
+.register_text {
+	margin:30px 100px 20px;
+	color:#1e9bdb;
+	font-family:"微软雅黑";}
+.formwrapper {
+	width:720px;
+	height:325px;
+	margin:10px auto;}
+.formwrapper p {
+	margin:10px 0;
+	line-height:160%;}
+.register_left {
+	width:480px;
+	float:left;
+	margin-left:20px;
+	padding:10px;
+	border:1px solid #1e9bdb;
+	background-image:-webkit-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:-moz-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:-o-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:-ms-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	border-radius:0px 0px 0px 30px;} /*边框圆角*/
+
+.register_left div {
+	clear:left;
+	margin-bottom:2px;}
+.register_left label {
+	float:left;
+	width:120px;
+	text-align:right;
+	padding:4px;
+	margin:1px;}
+input {padding:2px;	margin:2px;}
+input:focus {
+	border:1px solid #0699ce;
+	background: rgba(250, 250, 0, 0.5);} /*透明填充*/
+.register_right {
+	width:150px;
+	height:252px;
+	float:left;
+	margin-left:5px;
+	text-align:center;
+	line-height:268px;
+	border:1px solid #1e9bdb;
+	border-radius:0px 30px 0px 0px;
+	background-image:-webkit-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:-moz-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:-o-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:-ms-linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+	background-image:linear-gradient(top,#FFFFFF,#fefad7);/*渐变填充*/
+}	
+.button {
+	margin-top:20px;
+	padding:7px;
+	border-radius:3px;
+	border:1px #333 solid;
+	background-color: #EEE;
+	font-family:"黑体";
+	color:#000;}
+.enter{text-align: center;}

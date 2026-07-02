@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b2838;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* 头部导航 */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121319;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: #47525e;
+    border-radius: 3px;
+}
+
+.search-box input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #5c7e10;
+    color: #fff;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.game-card {
+    background-color: #1a242e;
+    border: 1px solid #2a475e; /* 基础边框 */
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    width: auto;
+    transition: all 0.3s ease; /* 平滑过渡效果 */
+}
+
+.game-card img { 
+}
+footer {
+    clear: both; 
+    background-color: #12141d; 
+    color: #8F98A0; 
+    text-align: center; 
+    padding: 20px 0; /
+    font-size: 14px; 
+}
+
+footer p {
+    margin: 0; 
+}
+
+
+h2 {
+    font-size: 24px;      
+    color: #ff6b00;       
+    font-weight: bold;    
+    text-align: left;   
+    margin-bottom: 15px;  
+}
+
+h3 {
+    font-size: 18px;          
+    color: #3cfcff;            
+    font-weight: 600;          
+    margin-top: 20px;         
+    margin-bottom: 10px;      
+    text-transform: capitalize; 
+}
+
+/* 鼠标悬停效果 */
+h3:hover {
+    color: #55ff00;            
+    transition: color 0.3s;    
+}

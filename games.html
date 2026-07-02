@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam 风格商店 - 游戏分类</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 复用头部导航 -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://postimg.futunn.com/tmp/phpBpjpew.jpg/big" alt="Steam Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">商店</a></li>
+                <li><a href="games.html" class="active">游戏分类</a></li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="login.html">登录</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="搜索游戏...">
+                <button type="submit">搜索</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 侧边栏复用 -->
+    <aside class="sidebar">
+        <h3>推荐</h3>
+        <ul>
+            <li><a href="#">好友推荐</a></li>
+            <li><a href="#">热门推荐</a></li>
+            <li><a href="#">新游推荐</a></li>
+        </ul>
+        <h3>游戏分类</h3>
+        <ul>
+            <li><a href="#">动作</a></li>
+            <li><a href="#">冒险</a></li>
+            <li><a href="#">角色扮演</a></li>
+            <li><a href="#">休闲</a></li>
+        </ul>
+    </aside>
+
+    <!-- 主要内容 -->
+    <main class="main-content">
+        <h2>游戏分类列表</h2>
+        <!-- 列表示例 -->
+        <ul class="category-list">
+            <li>
+                <h3>动作游戏</h3>
+                <p>包含各类动作冒险、格斗游戏</p>
+                <a href="#" class="btn">查看全部</a>
+            </li>
+            <li>
+                <h3>角色扮演</h3>
+                <p>沉浸体验剧情与角色成长</p>
+                <a href="#" class="btn">查看全部</a>
+            </li>
+            <li>
+                <h3>休闲益智</h3>
+                <p>轻松玩法，适合放松</p>
+                <a href="#" class="btn">查看全部</a>
+            </li>
+        </ul>
+
+        <!-- 表格示例（展示游戏数据） -->
+        <table class="game-table">
+            <thead>
+                <tr>
+                    <th>游戏名称</th>
+                    <th>价格</th>
+                    <th>评分</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>巫师3</td>
+                    <td>¥ 59</td>
+                    <td>9.2</td>
+                    <td><a href="#" class="btn">详情</a></td>
+                </tr>
+                <tr>
+                    <td>杀手4</td>
+                    <td>¥ 39</td>
+                    <td>8.7</td>
+                    <td><a href="#" class="btn">详情</a></td>
+                </tr>
+                <tr>
+                    <td>孤岛惊魂5</td>
+                    <td>¥ 29</td>
+                    <td>8.5</td>
+                    <td><a href="#" class="btn">详情</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 仿steam   潘子杰  版权所有</p>
+    </footer>
+</body>
+</html>
