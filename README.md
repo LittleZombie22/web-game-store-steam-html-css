@@ -8,18 +8,17 @@
 - CSS3：Flex弹性布局、浮动布局、线性渐变、圆角边框、transition平滑过渡、hover交互样式、样式文件拆分复用
 
 ## 项目目录结构
-game-store-steam/
-├── README.md # 项目说明文档
-├── css/
-│ ├── style.css # 全站通用样式（导航、游戏卡片、页脚、全局动画）
-│ └── registercss.css # 注册页面独立专属样式
-├── img/
-│ ├── page_bg.jpg # 注册页面浅蓝色渐变背景图
-│ └── 钓鱼游戏节.png # 首页活动横幅宣传图
-├── index.html # 网站首页：活动轮播 + 热门游戏推荐卡片
-├── games.html # 游戏分类列表页：侧边栏分类导航 + 游戏数据表格
-├── about.html # 项目介绍与功能说明页面
-└── login.html # 用户注册表单页面
+- README.md：项目说明文档
+- css/
+  - style.css：全站通用样式（导航、游戏卡片、页脚、全局动画）
+  - registercss.css：注册页面独立专属样式
+- img/
+  - page_bg.jpg：注册页面浅蓝色渐变背景图
+  - 钓鱼游戏节.png：首页活动横幅宣传图
+- index.html：网站首页，活动轮播+热门游戏推荐卡片
+- games.html：游戏分类列表页，侧边栏分类导航+游戏数据表格
+- about.html：项目介绍与功能说明页面
+- login.html：用户注册表单页面
 
 ## 核心功能实现
 1. 全站统一导航栏，多页面互相跳转，自动高亮当前访问页面
